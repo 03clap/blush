@@ -1,0 +1,79 @@
+ 
+ body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #fffaeb;
+}
+
+h1,
+h2,
+h3,
+h4,
+.work-sans-serif {
+    font-family: "Work Sans", sans-serif;
+}
+
+.korean-text {
+    font-family: "Noto Sans KR", sans-serif;
+    /* 한국어 글꼴 설정 */
+}
+
+.english-text {
+    font-family: "Work Sans", sans-serif;
+    /* 영어 글꼴 설정 */
+}
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(pages/style_3.jpg);
+    background-size: contain;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.blusher-item, .hair-color-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.blusher-item img, .hair-color-item img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.blusher-item h3, .hair-color-item h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+.blusher-item p, .hair-color-item p {
+    margin: 0 0 10px 0;
+}
+.btn-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #3A4161;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+.btn-link:hover {
+    background-color: #3A4161;
+}
